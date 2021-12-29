@@ -1,4 +1,3 @@
-from utils import isFinal,utility , getChildren
 
 def minimax( state, turn : int):  
         
@@ -12,8 +11,8 @@ def minimax( state, turn : int):
             return score
         else: 
             score = 99999
-            for s in getChildren(state):
-                score = min(score, minimax(s , 1))
+            for s in self.getChildren(state):
+                score = min(score, self.minimax(s , 1))
             
             return score
 

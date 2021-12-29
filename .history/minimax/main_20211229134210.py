@@ -13,3 +13,4 @@ else: print('Min in the winner')
 ### Alpha - beta
 
 print(alphabeta([int(initial)],1, -99999, 99999))
+"""

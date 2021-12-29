@@ -1,5 +1,4 @@
-from utils import isFinal,utility , getChildren
-
+from minimax.utils import isFinal,utility , getChildren
 def minimax( state, turn : int):  
         
         if(isFinal(state)): 
